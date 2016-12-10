@@ -1,3 +1,25 @@
+# Overview
+
+This is based on code school watch me build quiz app.
+
+
+## Steps to Build
+
+1. Generate blueprint via CLI
+   - Update `.gitignore` to exclude `.DS_Store`
+2. Download assets from github.
+3. Copy styles to `app/styles` renaming application.css to `app.css`
+4. Edit the `application.hbs`
+5. Update the link to home.
+6. Generate the `polls` route
+7. generate the `polls\poll` using `$ ember generate route polls/poll --path ":poll_id"`
+8. Generate polls result `$ ember generate route polls/poll/results`
+9. Add ember extension from Chrome App Extensions.
+10.  Copy the 3 mock up files to the ember application.
+11. Update the button links
+12. Create poll model
+
+
 # ember-quiz
 
 This README outlines the details of collaborating on this Ember application.
