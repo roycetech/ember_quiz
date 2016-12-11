@@ -17,7 +17,24 @@ This is based on code school watch me build quiz app.
 9. Add ember extension from Chrome App Extensions.
 10.  Copy the 3 mock up files to the ember application.
 11. Update the button links
-12. Create poll model
+12. Create models _poll_, _option_, and _vote_ manually to avoid using ember data.
+13. Generate the store service
+14. Implement the `findAllPolls()` and use it in the `polls` route.
+15. Implement the `polls.hbs`
+16. Implement `polls/poll/index.hbs` and `polls/poll/results.hbs`
+17. Implement the voting by creating a new route manually `polls/poll/index.js`
+18. Create a new route index.js and return `Vote` as the model
+19. Update the `polls/poll/index.hbs` to get the polls via the new Vote model.
+20. `$ ember install ember-cli-format-number`
+
+## Features
+
+- custom eq helper
+
+
+## Issues
+
+- Naming a project with underscore character, it will be converted to hyphen in code.
 
 
 # ember-quiz
