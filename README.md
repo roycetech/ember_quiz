@@ -29,7 +29,11 @@ This is based on code school watch me build quiz app.
 
 ## Features
 
+- Basic Ember Application
 - custom eq helper
+- Components
+- Acceptance Testing
+- Ember Data
 
 
 ## Issues
