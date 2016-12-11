@@ -37,6 +37,11 @@ This is based on code school watch me build quiz app.
 - Naming a project with underscore character, it will be converted to hyphen in code.
 
 
+# Part 2
+
+1. Generate acceptance test `$ ember generate acceptance-test render-layout`
+
+
 # ember-quiz
 
 This README outlines the details of collaborating on this Ember application.
