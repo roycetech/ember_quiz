@@ -39,11 +39,26 @@ This is based on code school watch me build quiz app.
 ## Issues
 
 - Naming a project with underscore character, it will be converted to hyphen in code.
+- The videos did a shortcut and did not show the some essential files.  This cause some of the tests to fail and I have to look somewhere else to learn the missing pieces of the puzzle.
 
 
 # Part 2
 
 1. Generate acceptance test `$ ember generate acceptance-test render-layout`
+2. Basically implement all the acceptance tests and unit tests.
+
+
+# Part 3 - Implementing Ember Data
+
+1. Rename the option model to a backup
+2. Run `$ ember generate model option label:string poll:belongs-to:poll`
+4. Move the model method to the new model file.
+5. Run `$ ember generate model poll options:has-many:option prompt:string votes:has-many:vote`
+6. Move the model method to the new model file.
+7. `$ ember generate model vote option:belongs-to:option poll:belongs-to:poll`
+8. Move the model method to the new model file.
+9. To fix the test errors, backup the store.
+10. Install `$ ember install ember-cli-mirage` it is a testing helper
 
 
 # ember-quiz
